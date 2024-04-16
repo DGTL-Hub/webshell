@@ -1,5 +1,10 @@
 {
   "ascii": [
+"            __|-| |-|_ *                           ",
+"         __ |        | _____      __\\__         ",
+"~~~~~~~~~\\_________________/~~~~~~\\____}~~~~~~~  ",
+"<><                                    ",
+"><>    sinkin' in the rain             ",   
     "███████╗██╗  ██╗███████╗██╗     ██╗",
     "██╔════╝██║  ██║██╔════╝██║     ██║",
     "███████╗███████║█████╗  ██║     ██║",
@@ -11,23 +16,18 @@
   "username": "visitor",
   "hostname": "webshell",
   "password": "050823",
-  "repoLink": "https://github.com/nasan016/webshell",
+  "repoLink": "https://github.com/DGTL-Hub/webshell",
   "social": {
-    "email": "your@email.com",
-    "github": "yourgithub",
-    "linkedin": "you"
+    "email": "russkiy1389@gmail.com",
+    "github": "https://github.com/DGTL-Hub",
+    "linkedin": "https://www.linkedin.com/in/russkiy/"
   },
-  "aboutGreeting": "Hi stranger. Welcome to WebShell.",
+  "aboutGreeting": "Hi stranger. Welcome to Digi-Shell.",
   "projects": [
     [
-      "GofeR",
-      "Vue.js reactivity in Go.",
-      "https://github.com/nasan016/gofer"
-    ],
-    [
-      "WebShell",
-      "Terminal styled website.",
-      "https://github.com/nasan016/webshell"
+      "Hugo-Portfolio",
+      "a place where I Dumpped all of my project files",
+      ""
     ]
   ],
   "colors": {
