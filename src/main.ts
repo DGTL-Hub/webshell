@@ -5,6 +5,11 @@ import { ABOUT } from "./commands/about"
 import { DEFAULT } from "./commands/default";
 import { PROJECTS } from "./commands/projects";
 import { createWhoami } from "./commands/whoami";
+import "./static/gifs/zomfox.gif";
+
+//load images 
+const dfox = command.images.digifox_loc;
+// img.src = dfox;
 
 //mutWriteLines gets deleted and reassigned
 let mutWriteLines = document.getElementById("write-lines");
@@ -15,7 +20,7 @@ let isSudo = false;
 let isPasswordInput = false;
 let passwordCounter = 0;
 let bareMode = false;
-
+ 
 //WRITELINESCOPY is used to during the "clear" command
 const WRITELINESCOPY = mutWriteLines;
 const TERMINAL = document.getElementById("terminal");
@@ -390,6 +395,14 @@ const initEventListeners = () => {
     writeLines(BANNER);
   });
   
+  // window.addEventListener(dfox) => setTimeout(dfox, 1000);
+  // let syncfox = window.addEventListener(BANNER, () => {});
+  
+  /* 
+  let syncdfox = function(dfox) {
+  } */
+
+
   USERINPUT.addEventListener('keypress', userInputHandler);
   USERINPUT.addEventListener('keydown', userInputHandler);
   PASSWORD_INPUT.addEventListener('keypress', userInputHandler);
@@ -402,3 +415,5 @@ const initEventListeners = () => {
 }
 
 initEventListeners();
+
+

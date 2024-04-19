@@ -3,8 +3,10 @@
 :root {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 200;
-  --bg: #0C0623;
-  --border: #FFADE2;
+  /* --bg: #0C0623; */
+  --bg: #000;
+  /* --border: #FFADE2; */
+  --border: #e5f501;
   --text: #F8DDE5;
   --prompt-default: #A5A7A7;
   --prompt-1: #FE6BC9;
@@ -169,6 +171,15 @@ a:hover {
 .keys {
   color: #FF9951;
   font-weight: 400;
+}
+
+.dfox{
+  display: inline-block;
+  font-size: 20px;
+  /* size-adjust: 20px; */
+  /* size-offselt: 20px; */
+  
+  z-index: 100;
 }
 
 @media (max-width: 600px) {

@@ -26,10 +26,16 @@
   "projects": [
     [
       "Hugo-Portfolio",
+      "my Dev Profile writen in Hugo",
+      ""
+    ],
+    [
+      "Dgtl_Dump",
       "a place where I Dumpped all of my project files",
       ""
     ]
   ],
+  
   "colors": {
     "background": "#0C0623",
     "foreground": "#F8DDE5",
@@ -38,6 +44,7 @@
       "visible": true,
       "color": "#FFADE2"
     },
+
     "prompt": {
       "default": "#A5A7A7",
       "user": "#FE6BC9",
@@ -52,5 +59,10 @@
     "commands": {
       "textColor": "#FD9BDB"
     }
+  },
+  "images": {
+    "digifox":"url(https://imgur.com/sXk4pGW)",
+    "digifox_loc":"url(src/static/gifs/zomfox.gif)"
+
   }
 }
