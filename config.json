@@ -1,17 +1,23 @@
 {
   "ascii": [
-"            __|-| |-|_ *                           ",
+
+"░█▀▀▄ ▀█▀ ░█▀▀█ ▀█▀ ▀▀█▀▀ ─█▀▀█ ░█───  ",
+"░█─░█ ░█─ ░█─▄▄ ░█─ ─░█── ░█▄▄█ ░█───  ",
+"░█▄▄▀ ▄█▄ ░█▄▄█ ▄█▄ ─░█── ░█─░█ ░█▄▄█  ",
+"                                       ",
+"███████╗██╗  ██╗███████╗██╗     ██╗",
+"██╔════╝██║  ██║██╔════╝██║     ██║",
+"███████╗███████║█████╗  ██║     ██║",
+"╚════██║██╔══██║██╔══╝  ██║     ██║",
+"███████║██║  ██║███████╗███████╗███████╗",
+"╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝",
+"                                        ",
+"            __|-| |-|_ *                 ",
 "         __ |        | _____      __\\__         ",
 "~~~~~~~~~\\_________________/~~~~~~\\____}~~~~~~~  ",
 "<><                                    ",
-"><>    sinkin' in the rain             ",   
-    "███████╗██╗  ██╗███████╗██╗     ██╗",
-    "██╔════╝██║  ██║██╔════╝██║     ██║",
-    "███████╗███████║█████╗  ██║     ██║",
-    "╚════██║██╔══██║██╔══╝  ██║     ██║",
-    "███████║██║  ██║███████╗███████╗███████╗",
-    "╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
-  ],
+"><>    sinkin' in the rain             "
+],
   "title": "WebShell",
   "username": "visitor",
   "hostname": "webshell",
@@ -21,6 +27,10 @@
     "email": "russkiy1389@gmail.com",
     "github": "https://github.com/DGTL-Hub",
     "linkedin": "https://www.linkedin.com/in/russkiy/"
+  },
+  "digital": {
+    "greeting": "hello I'm Digital,[[ʘ‿ʘ]]",
+    "about":"help find me I'm tring to escape."
   },
   "aboutGreeting": "Hi stranger. Welcome to Digi-Shell.",
   "projects": [
@@ -42,7 +52,7 @@
     "banner": "#FF9951",
     "border": {
       "visible": true,
-      "color": "#FFADE2"
+      "color": "#d61406"
     },
 
     "prompt": {
@@ -51,11 +61,13 @@
       "host": "#70FDFF",
       "input": "#FF7685"
     },
+
     "link": {
       "text": "#B6AAEE",
       "highlightColor": "#FFADE2",
       "highlightText": "#0C0623"
     },
+
     "commands": {
       "textColor": "#FD9BDB"
     }
@@ -63,6 +75,5 @@
   "images": {
     "digifox":"url(https://imgur.com/sXk4pGW)",
     "digifox_loc":"url(src/static/gifs/zomfox.gif)"
-
   }
 }

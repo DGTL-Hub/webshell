@@ -140,7 +140,6 @@ a:hover {
   margin-top: 3px;
 }
 
-
 #bar-5 {
   height: 1px;
   background-color: var(--border);
@@ -173,13 +172,21 @@ a:hover {
   font-weight: 400;
 }
 
-.dfox{
-  display: inline-block;
-  font-size: 20px;
-  /* size-adjust: 20px; */
-  /* size-offselt: 20px; */
-  
-  z-index: 100;
+/*  */
+.dfoxi{
+  display: block;
+padding: 10px;width: 15em;
+postion: fixed;
+top: 100px;
+right: 50px;
+background-color: #000;
+color: #fff;
+border-radius: 5px;
+border: 1px solid #fff;
+top: 150px;
+ transition: none;
+  cursor: move;
+
 }
 
 @media (max-width: 600px) {
