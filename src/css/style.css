@@ -171,22 +171,12 @@ a:hover {
   color: #FF9951;
   font-weight: 400;
 }
-
-/*  */
-.dfoxi{
-  display: block;
-padding: 10px;width: 15em;
-postion: fixed;
-top: 100px;
-right: 50px;
-background-color: #000;
-color: #fff;
-border-radius: 5px;
-border: 1px solid #fff;
-top: 150px;
- transition: none;
-  cursor: move;
-
+.dfoxi {
+float: right;
+position: sticky;
+margin-right: -250px;
+/* margin-top: 650px; */
+scale: 0.3;
 }
 
 @media (max-width: 600px) {
